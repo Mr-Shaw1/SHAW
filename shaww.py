@@ -226,7 +226,7 @@ logo=("""\033[1;37m
       [√]  Author  : Mr Shaw
       [√]  Github  : Mr-Shaw1
       [√]  Status  : PAID
-      [√]  Version : 572
+      [√]  Version : 573
 \033[1;37m----------------------------------------------
 \033[1;31m  I m not a programmer just start learning =)                    
 \033[1;37m----------------------------------------------""")
@@ -287,8 +287,9 @@ def ua1():
     alex9 = str(random.randint(200,400))+".0.0."+str(random.randint(7,37))+"."+str(random.randint(101,151))
     alex2 = random.randint(410000000,499999999)
     cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853','CPH2127', 'CPH2131','PDVM00','CPH2095','CPH2119','PEAT00', 'PEAM00','CPH2137','CPH2125','CPH2065','CPH2121', 'CPH2123','CPH2099','CPH2139', 'CPH2135','CPH2185','SPH2209','CPH2161','PERM00','CPH2109','CPH2113','PDYM20', 'PDYT20','PDNM00', 'PDNT00', 'CPH2089'])  
-    ua = f"Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)};  Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})"+"[FBAN/"+"FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/123.0.0.17.131;FBBV/162719210;FBDM/{density=2.97,width=800,height=1520};FBLC/sr_CS;FBCA/mts;FBMF/Wasi;FBBD/Wasi;FBPN/com.facebook.katana;FBDV/CPH2059;FBSV/9.1;nullFBCA/armeabi-v7a:armeabi;]"
+    ua = f"Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)};  Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})"+"[FBAN/"+"FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";[FBAN/FB4A;FBAV/121.0.0.23.131;FBBV/143535465;FBDM/{density=2.99,width=700,height=1620};FBLC/sr_CS;FBCA/Telekom Srbija Group;FBMF/Wasi;FBBD/Wasi;FBPN/com.facebook.katana;FBDV/SPH2209;FBSV/10.1;nullFBCA/armeabi-v7a:armeabi;]"
     return ua
+    
     
 def menu():
             clear()        
